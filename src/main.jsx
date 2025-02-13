@@ -8,7 +8,7 @@ import TaskPage from './pages/taskPage.jsx'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />
+    element: <App className="bg-slate-500" />
   },
   {
     path: "/task",
@@ -18,6 +18,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider className="bg-slate-500" router={router}/>
+    <RouterProvider router={router}/>
   </StrictMode>
 )
