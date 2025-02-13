@@ -9,23 +9,53 @@ function App() {
     JSON.parse(localStorage.getItem('tasks')) || [
       {
     id: 1,
-    title: 'Estudar Programação',
-    description: 'Estudar programação para se tornar um desenvolvedor full stack',
+    title: 'Pagar energia Flat 201/206',
+    description: 'Vencimento dia 30',
     isCompleted: false,
   },
   {
     id: 2,
-    title: 'Estudar inglês',
-    description: 'Estudar inglês para se tornar um desenvolvedor full stack',
+    title: 'Pagar condomínio Flat 201/206',
+    description: 'Vencimento dia 25',
     isCompleted: false,
   },
   {
     id: 3,
-    title: 'Estudar matemática',
-    description: 'Estudar matemática para se tornar um desenvolvedor full stack',
+    title: 'Pagar energia apartamento Campina Grande',
+    description: 'Vencimento dia 02',
     isCompleted: false,
-  }
-    ] // mostra localStorage ou lista vazia caso não tenha nada no localStorage
+  },
+  {
+    id: 4,
+    title: 'Pagar condomínio apartamento Campina Grande',
+    description: 'Vencimento dia 05',
+    isCompleted: false,
+  },
+  {
+    id: 5,
+    title: 'Pagar Claro',
+    description: 'Vencimento dia 20',
+    isCompleted: false,
+  },
+  {
+    id: 6,
+    title: 'Pagar Faculdade',
+    description: 'Vencimento dia 27',
+    isCompleted: false,
+  },
+  {
+    id: 7,
+    title: 'Pagar Cartão Bradesco',
+    description: 'Vencimento dia 05',
+    isCompleted: false,
+  },
+  {
+    id: 8,
+    title: 'Pagar Internet',
+    description: 'Vencimento dia 30',
+    isCompleted: false,
+  },
+    ] // mostra este array como padão no localStorage ou lista vazia caso não tenha nada no localStorage
   )
   /*{
     id: 1,
