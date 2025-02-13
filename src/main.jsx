@@ -18,6 +18,6 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider className="bg-slate-500" router={router}/>
   </StrictMode>
 )
