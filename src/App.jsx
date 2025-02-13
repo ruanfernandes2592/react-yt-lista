@@ -6,7 +6,26 @@ import Title from "./components/Title"
 
 function App() {
   const [tasks, setTasks] = useState(
-    JSON.parse(localStorage.getItem('tasks')) || [] // mostra localStorage ou lista vazia caso não tenha nada no localStorage
+    JSON.parse(localStorage.getItem('tasks')) || [
+      {
+    id: 1,
+    title: 'Estudar Programação',
+    description: 'Estudar programação para se tornar um desenvolvedor full stack',
+    isCompleted: false,
+  },
+  {
+    id: 2,
+    title: 'Estudar inglês',
+    description: 'Estudar inglês para se tornar um desenvolvedor full stack',
+    isCompleted: false,
+  },
+  {
+    id: 3,
+    title: 'Estudar matemática',
+    description: 'Estudar matemática para se tornar um desenvolvedor full stack',
+    isCompleted: false,
+  }
+    ] // mostra localStorage ou lista vazia caso não tenha nada no localStorage
   )
   /*{
     id: 1,
