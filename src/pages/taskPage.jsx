@@ -14,12 +14,12 @@ function TaskPage() {
     }
 
     return (
-        <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
+        <div className="w-screen h-screen bg-violet-500 flex justify-center p-6">
             <div className="w-[500px] space-y-4">
                 <div className="flex justify-center relative mb-6">
                     <button 
                     onClick={onBackCLick}
-                    className="absolute left-0 top-0 bottom-0 text-slate-100"
+                    className="absolute left-0 top-0 bottom-0 text-violet-100"
                     >
                         <ChevronLeftIcon />
                     </button>
@@ -27,9 +27,9 @@ function TaskPage() {
                         Detalhes da tarefa
                     </Title>
                 </div>
-                <div className="bg-slate-200 p-4 rounded-md">
-                    <h2 className="text-xl text-slate-600 font-bold">{title}</h2>
-                    <p className="text-slate-600">{description}</p>
+                <div className="bg-violet-200 p-4 rounded-md">
+                    <h2 className="text-xl text-violet-600 font-bold">{title}</h2>
+                    <p className="text-violet-600">{description}</p>
                 </div>
             </div>
         </div>
